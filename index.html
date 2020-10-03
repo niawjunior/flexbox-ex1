@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  h1 {
+    text-align:center;
+  }
+  .border-black {
+    border: 2px solid #000;
+    padding:.5rem;
+    margin:.5rem;
+  }
+  .header {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  }
+  .item {
+    width: 100px;
+    height: 50px;
+    background-color: #ff6e6e;
+    margin: 1rem;
+  }
+  .justify-content-center {
+    display: flex;
+    justify-content:center;
+  }
+  .flex-direction-column {
+    display: flex;
+    flex-direction:column;
+  }
+  .flex-direction-row {
+    display: flex;
+    flex-direction:row;
+  }
+  .justify-content-flex-start {
+    display: flex;
+    justify-content:flex-start
+  }
+  .justify-content-flex-end {
+    display: flex;
+    justify-content:flex-end
+  }
+  .justify-content-space-between {
+    display:flex;
+    justify-content:space-between;
+  }
+  .justify-content-space-around {
+    display:flex;
+    justify-content:space-around;
+  }
+  .justify-content-space-evenly {
+    display:flex;
+    justify-content:space-evenly;
+  }
+
+  .align-items-flex-start {
+    display:flex;
+    align-items:flex-start;
+    height:300px;
+  }
+  .align-items-flex-end {
+    display:flex;
+    align-items:flex-end;
+    height:300px;
+  }
+  .align-items-center {
+    display:flex;
+    align-items:center;
+    height:300px;
+  }
+  .align-items-stretch {
+    display:flex;
+    height:300px;
+  }
+
+  .item-stretch {
+    align-items: stretch; 
+    background-color: #ff6e6e;
+    width: 100px;
+    margin: 1rem;
+  }
+</style>
+<body>
+  <div class="header">
+    <h1>CSS Flexbox</h1>
+    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Credit: https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a>
+  </div>
+  <div class="border-black">
+  <h1>flex-direction:column</h1>
+
+  <div class="flex-direction-column">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  </div>
+
+  <div class="border-black">
+
+  <h1>flex-direction:row</h1>
+  <div class="flex-direction-row">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  </div>
+
+  <div class="border-black">
+
+  <h1>justify-content:flex-start</h1>
+  <div class="justify-content-flex-start">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+  </div>
+  <div class="border-black">
+    <h1>justify-content:center</h1>
+
+    <div class="justify-content-center">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+
+  </div>
+  <div class="border-black">
+
+  <h1>justify-content:flex-end</h1>
+  <div class="justify-content-flex-end">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+  </div>
+  
+  <div class="border-black">
+    <h1>justify-content:space-between</h1>
+    <div class="justify-content-space-between">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+  <div class="border-black">
+    <h1>justify-content:space-around</h1>
+    <div class="justify-content-space-around">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+  <div class="border-black">
+    <h1>justify-content:space-evenly</h1>
+    <div class="justify-content-space-evenly">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+
+  <div class="border-black">
+    <h1>align-items:flex-start</h1>
+    <div class="align-items-flex-start">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+  <div class="border-black">
+    <h1>align-items:flex-end</h1>
+    <div class="align-items-flex-end">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+  <div class="border-black">
+    <h1>align-items:center</h1>
+    <div class="align-items-center">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+  <div class="border-black">
+    <h1>align-items:stretch</h1>
+    <div class="align-items-stretch">
+      <div class="item-stretch"></div>
+      <div class="item-stretch"></div>
+      <div class="item-stretch"></div>
+    </div>
+  </div>
+
+</body>
+</html>
